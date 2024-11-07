@@ -1,50 +1,74 @@
-/*aside .TITRE,ul{
-    font-size: large;
-    font-family:serif;
-}
-
-
-#core{
-    font: size 200;;
-    font-family:serif;
-    flex: 5;
-
-}
-
-footer{
-    text-size-adjust:inherit;
-}
-
-
-aside{
-    flex:2;
-}*/
-
-
-    body {
-      line-height: 4; /* Augmenter l'interligne pour le texte en mobile */
+  /* Styles pour la version mobile */
+    /* En-tête et contenu central */
+    #cv {
+      flex-direction: raw;
     }
   
-    h1, h2, h3 {
-      line-height: 1.4; /* Léger ajustement pour éviter les lignes trop serrées */
+    #sidebox {
+      width: 40%;
+      text-align: center;
     }
   
-    p {
-      line-height: 1.7; /* Meilleure lisibilité sur les petits écrans */
+    #core {
+      width: 60%;
+      padding: 2px;
+      font-size: larger;
     }
   
- aside{
-    flex:15%;
- }
- #core{
-    flex
- }
-
-
-    aside .TITRE,ul{
-        font-size: large;
-        font-family:serif;
-        margin-left:5%;
+    /* Image de profil */
+    #meps {
+      width: 150px;
+      height: auto;
+      margin: 0 auto;
     }
-
   
+    /* Taille du texte et marges */
+    #core .TITRE {
+      font-size:larger;
+      text-align: center;
+    }
+  
+    
+    #sidebox ul li {
+      font-size:medium;
+      text-align:left;
+      padding: 2px;
+    }
+  
+    #sidebox .TITRE {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+  
+    /* Ajustement des sections d'expérience, formation, etc. */
+    #core .TITRE.TITRE1 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  
+    #bodyflex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Espacement entre les éléments */
+    #core section,
+    #sidebox section {
+      margin-bottom: 10px;
+      padding: 0 10px;
+    }
+  
+    /* Footer */
+    footer .social-icon,
+    footer .mail-icon,
+    footer .phone-icon {
+      font-size: 1.5rem;
+    }
+  
+    .CENTRES {
+      padding: 10px;
+    }
+  
+    #meps{
+        clip-path:circle(2);
+    }
