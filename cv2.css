@@ -1,0 +1,61 @@
+#top{
+    display: flex;
+    justify-content: left;
+   background-color: rgb(235, 228, 218);
+  
+}
+
+#core{
+    display: flex;
+    justify-content:center;
+}
+
+
+#meps{
+
+    clip-path:circle();
+
+}
+
+#logo {
+    background-color: black;
+    width: 400px;  /* Largeur de l'élément */
+    height: 200px;  /* Hauteur de l'élément */
+    clip-path: ellipse(50% 100% at 0% 50%); /* Ellipse coupée par la gauche */
+}
+
+
+
+h3{
+    justify-content: center;
+}
+
+#core1 h3{
+    width:7cm;
+    background-color: black;
+    color: azure;
+    border-radius: 50px;
+    text-align: center;
+    
+ 
+}
+
+#core2 h3{
+    width:7cm;
+    background-color: black;
+    color: azure;
+    border-radius: 50px;
+    text-align: center;
+    
+ 
+}
+
+
+#core1{
+
+flex: 4;
+}
+
+#core2{
+    flex:6;
+}

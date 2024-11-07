@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(218, 237, 246);
+}
+
+.TITRE {
+  color: rgb(48, 63, 82);
+ 
+}
+
+
+#cv {
+  display: flex;
+}
+
+#core {
+  background-color: azure;
+  padding: 4px;
+  line-height: 1.6;
+  
+}
+
+
+
+#core .TITRE.TITRE1{
+    border-bottom: 1px solid rgb(48, 63, 82);
+}
+
+
+
+
+
+
+#sidebox {
+  background-color: rgb(48, 63, 82);
+border-color: rgb(15, 16, 16);
+padding-left: 3px;
+}
+
+#sidebox ul {
+  color: aliceblue;
+  padding-left: 0.5%;
+}
+
+#sidebox .TITRE {
+  color: aliceblue;
+  border-bottom: 1px solid rgb(250, 244, 244);
+}
+
+
+#meps{
+    border-radius: 200;
+}
+
+.social-icon{
+    color: blue;
+}
+
+footer {
+    background-color: rgb(48, 63, 82);
+    padding: 1px;
+    border-color:transparent
+}
+
+.CENTRES {
+    text-align: center;
+}
+
+#meps{
+    clip-path:circle();
+}
+
+
+
+.train{
+
+    display: flex;
+    background-color: brown;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items:flex-end;
+    flex-wrap: wrap;
+
+
+}
+
+.train p:first-child{
+    background-color: rgb(239, 234, 234);
+}
+
+
+
+
+
+
+/* Cible toutes les icônes Font Awesome dans le footer */
+footer .social-icon, footer .mail-icon, footer .phone-icon {
+    color: white;          /* Change la couleur des icônes en blanc */
+    font-size: 2rem;       /* Augmente la taille des icônes (ajustable à ta convenance) */
+    margin: 0 10px;        /* Espacement entre les icônes */
+    transition: color 0.3s; /* Transition pour un effet plus fluide au survol (optionnel) */
+}
+
+/* Optionnel : ajout d'un effet au survol */
+footer .social-icon:hover, footer .mail-icon:hover, footer .phone-icon:hover {
+    color: #ddd;  /* Change la couleur des icônes en gris clair lors du survol */
+}
+
+#sidebox ul{
+ list-style:none;
+ line-height: 1.6;
+ 
+}
+#bodyflex{
+  display: flex;
+  justify-content:space-around;
+}

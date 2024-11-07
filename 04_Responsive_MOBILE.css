@@ -1,0 +1,50 @@
+/*aside .TITRE,ul{
+    font-size: large;
+    font-family:serif;
+}
+
+
+#core{
+    font: size 200;;
+    font-family:serif;
+    flex: 5;
+
+}
+
+footer{
+    text-size-adjust:inherit;
+}
+
+
+aside{
+    flex:2;
+}*/
+
+
+    body {
+      line-height: 4; /* Augmenter l'interligne pour le texte en mobile */
+    }
+  
+    h1, h2, h3 {
+      line-height: 1.4; /* Léger ajustement pour éviter les lignes trop serrées */
+    }
+  
+    p {
+      line-height: 1.7; /* Meilleure lisibilité sur les petits écrans */
+    }
+  
+ aside{
+    flex:15%;
+ }
+ #core{
+    flex
+ }
+
+
+    aside .TITRE,ul{
+        font-size: large;
+        font-family:serif;
+        margin-left:5%;
+    }
+
+  
