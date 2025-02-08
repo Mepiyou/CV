@@ -2,6 +2,8 @@
 
 # Projet : Mon CV
 
+lien du site : https://mepiyou.github.io/CV/
+
 ## Description du Projet
 
 Ce projet est une implémentation front-end d'un **CV** codé en **HTML** et **CSS**. Le site est entièrement responsive, permettant une visualisation optimale sur différents appareils, tels que les ordinateurs de bureau, tablettes et téléphones mobiles. Il contient également des liens vers mes différentes plateformes professionnelles.
